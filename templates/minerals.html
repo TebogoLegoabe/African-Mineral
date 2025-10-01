@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block title %}Minerals - {{ app_name }}{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <h2 class="mb-4"><i class="fas fa-database"></i> Mineral Database</h2>
+    
+    <!-- Filter Section -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5 class="mb-0"><i class="fas fa-filter"></i> Filters</h5>
+        </div>
+        <div class="card-body">
+            <form method="GET" action="{{ url_for('minerals') }}">
+                <div class="row">
+                    <div class="col-md-5">
+                        <label for="mineral" class="form-label">Mineral</label>
+                        <select class="form-select" id="mineral" name="mineral">
+                            <option value="">All Minerals</option>
+                            {% for mineral in all_minerals %}
+                            <option value="{{ mineral }}" {% if mineral == selected_mineral %}selected{% endif %}>
+                                {{ mineral }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-5">
+                        <label for="country" class="form-label">Country</label>
+                        <select class="form-select" id="country" name="country">
+                            <option value="">All Countries</option>
+                            {% for country in all_countries %}
+                            <option value="{{ country }}" {% if country == selected_country %}selected{% endif %}>
+                                {{ country }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="form-label">&nbsp;</label>
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="fas fa-search"></i> Search
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Results -->
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">
+                <i class="fas fa-list"></i> Results 
+                <span class="badge bg-primary">{{ minerals|length }} records</span>
+            </h5>
+        </div>
+        <div class="card-body">
+            {% if minerals %}
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Mineral</th>
+                            <th>Country</th>
+                            <th>Production (tonnes)</th>
+                            <th>Reserves (tonnes)</th>
+                            <th>Price (USD/tonne)</th>
+                            <th>Uses</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for mineral in minerals %}
+                        <tr>
+                            <td><strong>{{ mineral.mineral_name }}</strong></td>
+                            <td>
+                                <a href="{{ url_for('country_profile', country_name=mineral.country) }}">
+                                    {{ mineral.country }}
+                                </a>
+                            </td>
+                            <td>{{ "{:,.0f}".format(mineral.production_volume) }}</td>
+                            <td>{{ "{:,.0f}".format(mineral.reserves) }}</td>
+                            <td>${{ "{:,.0f}".format(mineral.price) }}</td>
+                            <td>
+                                <small>{{ mineral.uses[:100] }}{% if mineral.uses|length > 100 %}...{% endif %}</small>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <div class="alert alert-info">
+                <i class="fas fa-info-circle"></i> No minerals found matching your filters.
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

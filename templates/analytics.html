@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block title %}Analytics - {{ app_name }}{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <h2 class="mb-4"><i class="fas fa-chart-line"></i> Analytics Dashboard</h2>
+    
+    <!-- Summary Statistics -->
+    <div class="row mb-4">
+        <div class="col-md-3 mb-3">
+            <div class="card stat-card">
+                <div class="card-body">
+                    <div class="stat-number">{{ "{:,.0f}".format(stats.total_production) }}</div>
+                    <div class="text-muted">Total Production (tonnes)</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card stat-card">
+                <div class="card-body">
+                    <div class="stat-number">{{ "{:,.0f}".format(stats.total_reserves) }}</div>
+                    <div class="text-muted">Total Reserves (tonnes)</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card stat-card">
+                <div class="card-body">
+                    <div class="stat-number">${{ "{:,.0f}".format(stats.avg_price) }}</div>
+                    <div class="text-muted">Avg Price (per tonne)</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card stat-card">
+                <div class="card-body">
+                    <div class="stat-number">{{ stats.top_producer }}</div>
+                    <div class="text-muted">Top Producer</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Chart Links -->
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="fas fa-chart-bar"></i> Production Analysis</h5>
+                </div>
+                <div class="card-body">
+                    <p>View production volumes by country for specific minerals.</p>
+                    <form action="{{ url_for('production_chart', mineral='Cobalt') }}" method="GET">
+                        <div class="mb-3">
+                            <select class="form-select" name="mineral" onchange="window.location.href='/analytics/production/' + this.value">
+                                <option value="">Select a mineral...</option>
+                                {% for mineral in db.get_unique_mineral_names() %}
+                                <option value="{{ mineral }}">{{ mineral }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </form>
+                    <a href="{{ url_for('production_chart', mineral='Cobalt') }}" class="btn btn-primary">
+                        <i class="fas fa-arrow-right"></i> View Cobalt Production
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0"><i class="fas fa-chart-pie"></i> Market Share</h5>
+                </div>
+                <div class="card-body">
+                    <p>View market share distribution by country for minerals.</p>
+                    <form action="{{ url_for('market_share_chart', mineral='Lithium') }}" method="GET">
+                        <div class="mb-3">
+                            <select class="form-select" onchange="window.location.href='/analytics/market-share/' + this.value">
+                                <option value="">Select a mineral...</option>
+                                {% for mineral in db.get_unique_mineral_names() %}
+                                <option value="{{ mineral }}">{{ mineral }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </form>
+                    <a href="{{ url_for('market_share_chart', mineral='Lithium') }}" class="btn btn-success">
+                        <i class="fas fa-arrow-right"></i> View Lithium Market Share
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-warning text-dark">
+                    <h5 class="mb-0"><i class="fas fa-dollar-sign"></i> Price Comparison</h5>
+                </div>
+                <div class="card-body">
+                    <p>Compare average prices across different minerals.</p>
+                    <a href="{{ url_for('price_comparison') }}" class="btn btn-warning">
+                        <i class="fas fa-arrow-right"></i> View Price Comparison
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0"><i class="fas fa-trophy"></i> Top Producers</h5>
+                </div>
+                <div class="card-body">
+                    <p>See which countries are the leading producers.</p>
+                    <a href="{{ url_for('top_producers') }}" class="btn btn-info">
+                        <i class="fas fa-arrow-right"></i> View Top Producers
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

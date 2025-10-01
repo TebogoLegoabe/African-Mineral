@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Countries - {{ app_name }}{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <h2 class="mb-4"><i class="fas fa-globe-africa"></i> Country Profiles</h2>
+    
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">
+                <i class="fas fa-list"></i> African Countries with Critical Minerals
+            </h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                {% for country in countries %}
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-flag"></i> {{ country.name }}
+                            </h5>
+                            <p class="card-text">
+                                <strong>{{ country.mineral_count }}</strong> unique minerals<br>
+                                <strong>{{ country.total_records }}</strong> total records
+                            </p>
+                            <a href="{{ url_for('country_profile', country_name=country.name) }}" 
+                               class="btn btn-primary btn-sm">
+                                <i class="fas fa-eye"></i> View Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}{{ mineral }} Production - {{ app_name }}{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{ url_for('analytics_dashboard') }}">Analytics</a></li>
+            <li class="breadcrumb-item active">Production</li>
+        </ol>
+    </nav>
+    
+    <h2 class="mb-4"><i class="fas fa-chart-bar"></i> Production Analysis</h2>
+    
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">{{ mineral }} Production by Country</h5>
+        </div>
+        <div class="card-body">
+            {% if chart_html %}
+            {{ chart_html|safe }}
+            {% else %}
+            <div class="alert alert-warning">
+                <i class="fas fa-exclamation-triangle"></i> No data available for this mineral.
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

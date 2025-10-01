@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block title %}{{ profile.name }} - {{ app_name }}{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{ url_for('countries') }}">Countries</a></li>
+            <li class="breadcrumb-item active">{{ profile.name }}</li>
+        </ol>
+    </nav>
+    
+    <h2 class="mb-4">
+        <i class="fas fa-flag"></i> {{ profile.name }}
+    </h2>
+    
+    <!-- Statistics -->
+    <div class="row mb-4">
+        <div class="col-md-4 mb-3">
+            <div class="card stat-card">
+                <div class="card-body">
+                    <div class="stat-number">{{ profile.mineral_count }}</div>
+                    <div class="text-muted">Unique Minerals</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card stat-card">
+                <div class="card-body">
+                    <div class="stat-number">{{ "{:,.0f}".format(profile.total_production) }}</div>
+                    <div class="text-muted">Total Production (tonnes)</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card stat-card">
+                <div class="card-body">
+                    <div class="stat-number">{{ "{:,.0f}".format(profile.total_reserves) }}</div>
+                    <div class="text-muted">Total Reserves (tonnes)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Minerals List -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5 class="mb-0"><i class="fas fa-gem"></i> Minerals Produced</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                {% for mineral_name in profile.unique_minerals %}
+                <div class="col-md-3 mb-2">
+                    <span class="badge bg-primary">{{ mineral_name }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Detailed Data -->
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0"><i class="fas fa-table"></i> Production Details</h5>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Mineral</th>
+                            <th>Production (tonnes)</th>
+                            <th>Reserves (tonnes)</th>
+                            <th>Price (USD/tonne)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for mineral in profile.minerals %}
+                        <tr>
+                            <td><strong>{{ mineral.mineral_name }}</strong></td>
+                            <td>{{ "{:,.0f}".format(mineral.production_volume) }}</td>
+                            <td>{{ "{:,.0f}".format(mineral.reserves) }}</td>
+                            <td>${{ "{:,.0f}".format(mineral.price) }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

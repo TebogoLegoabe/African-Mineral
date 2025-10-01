@@ -1,0 +1,101 @@
+[
+    {
+        "id": "0f455c4a-768d-4fa6-ad0d-88433d692e1f",
+        "mineral": "Platinum-Group Metals (PGMs)",
+        "location_name": "Platinum-Group Metals (PGMs) Deposit - South Africa",
+        "country": "South Africa",
+        "latitude": -29.0,
+        "longitude": 25.0,
+        "reserves": 750000,
+        "annual_production": 10000,
+        "status": "Active"
+    },
+    {
+        "id": "5044d701-b82c-4671-9422-70e7111e55d0",
+        "mineral": "Manganese",
+        "location_name": "Manganese Deposit - South Africa",
+        "country": "South Africa",
+        "latitude": -29.0,
+        "longitude": 25.0,
+        "reserves": 465000000,
+        "annual_production": 6200000,
+        "status": "Active"
+    },
+    {
+        "id": "5a5203cd-d39a-4149-8f3b-2450a4355ae5",
+        "mineral": "Bauxite (for Aluminum)",
+        "location_name": "Bauxite (for Aluminum) Deposit - Guinea",
+        "country": "Guinea",
+        "latitude": 9.9,
+        "longitude": -9.6,
+        "reserves": 750000,
+        "annual_production": 10000,
+        "status": "Active"
+    },
+    {
+        "id": "bf3c4ba7-46aa-412a-8ac7-0b9315fd74ce",
+        "mineral": "Graphite (Natural)",
+        "location_name": "Graphite (Natural) Deposit - Mozambique",
+        "country": "Mozambique",
+        "latitude": -18.6,
+        "longitude": 35.5,
+        "reserves": 2250000,
+        "annual_production": 30000,
+        "status": "Active"
+    },
+    {
+        "id": "4b4ab954-7269-427d-8e28-cf524528d165",
+        "mineral": "Lithium",
+        "location_name": "Lithium Deposit - Zimbabwe",
+        "country": "Zimbabwe",
+        "latitude": -19.0,
+        "longitude": 29.8,
+        "reserves": 90000,
+        "annual_production": 1200,
+        "status": "Active"
+    },
+    {
+        "id": "a7271577-af67-4389-87a8-2fbc1a0a4d91",
+        "mineral": "Nickel",
+        "location_name": "Nickel Deposit - South Africa",
+        "country": "South Africa",
+        "latitude": -29.0,
+        "longitude": 25.0,
+        "reserves": 750000,
+        "annual_production": 10000,
+        "status": "Active"
+    },
+    {
+        "id": "888086e2-6879-47b9-b7ba-18cf991f8f51",
+        "mineral": "Chromium",
+        "location_name": "Chromium Deposit - South Africa",
+        "country": "South Africa",
+        "latitude": -29.0,
+        "longitude": 25.0,
+        "reserves": 1350000000,
+        "annual_production": 18000000,
+        "status": "Active"
+    },
+    {
+        "id": "4c4f5631-12b4-4858-8fd0-746f77dfd472",
+        "mineral": "Uranium",
+        "location_name": "Uranium Deposit - Namibia",
+        "country": "Namibia",
+        "latitude": -22.5,
+        "longitude": 17.0,
+        "reserves": 750000,
+        "annual_production": 10000,
+        "status": "Active"
+    },
+    {
+        "id": "42fa4da6-7e9c-4944-a480-b716c462ace0",
+        "mineral": "Rare Earth Elements (REEs)",
+        "location_name": "Rare Earth Elements (REEs) Deposit - South Africa",
+        "country": "South Africa",
+        "latitude": -29.0,
+        "longitude": 25.0,
+        "reserves": 750000,
+        "annual_production": 10000,
+        "status": "Active"
+    }
+]

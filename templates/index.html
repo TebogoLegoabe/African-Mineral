@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}Home - {{ app_name }}{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <div class="container">
+        <h1 class="display-3 mb-4">
+            <i class="fas fa-gem"></i> African Critical Minerals
+        </h1>
+        <p class="lead mb-5">
+            Comprehensive data platform for Africa's critical mineral resources
+        </p>
+        <a href="{{ url_for('login') }}" class="btn btn-light btn-lg me-3">
+            <i class="fas fa-sign-in-alt"></i> Login
+        </a>
+        <a href="{{ url_for('register') }}" class="btn btn-outline-light btn-lg">
+            <i class="fas fa-user-plus"></i> Register
+        </a>
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row text-center">
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <i class="fas fa-database fa-3x text-primary mb-3"></i>
+                    <h5 class="card-title">Mineral Database</h5>
+                    <p class="card-text">Comprehensive repository of critical mineral data across Africa</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <i class="fas fa-map-marked-alt fa-3x text-success mb-3"></i>
+                    <h5 class="card-title">Interactive Maps</h5>
+                    <p class="card-text">Visualize deposits and production sites geographically</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <i class="fas fa-globe-africa fa-3x text-info mb-3"></i>
+                    <h5 class="card-title">Country Profiles</h5>
+                    <p class="card-text">Detailed analysis of mineral-producing nations</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <i class="fas fa-chart-line fa-3x text-warning mb-3"></i>
+                    <h5 class="card-title">Analytics</h5>
+                    <p class="card-text">Production trends and market insights</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

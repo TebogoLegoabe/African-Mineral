@@ -1,0 +1,26 @@
+[
+    {
+        "id": "80a9ebcb-7cb7-4a50-8865-ce3e62ed3a52",
+        "username": "admin",
+        "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+        "email": "admin@chronominerals.com",
+        "role": "Administrator",
+        "created_at": "2025-10-01T23:26:51.788373"
+    },
+    {
+        "id": "7b20bcab-71b1-4bec-9b29-da1916ff3aaf",
+        "username": "investor1",
+        "password": "4f841b0d8d0c53395802c1588be3b15c0f26336a019b93a98a03bce1ad693d8e",
+        "email": "investor@example.com",
+        "role": "Investor",
+        "created_at": "2025-10-01T23:26:51.788424"
+    },
+    {
+        "id": "4f58cfca-9bcc-4a05-8c54-a673eb36a7c9",
+        "username": "researcher1",
+        "password": "381fa94c49882e0a06845ff8aa9df705412448592bc9a4e637dc3dcd0e543968",
+        "email": "researcher@example.com",
+        "role": "Researcher",
+        "created_at": "2025-10-01T23:26:51.788437"
+    }
+]

@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}Map - {{ app_name }}{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <h2 class="mb-4"><i class="fas fa-map-marked-alt"></i> Interactive Map</h2>
+    
+    <!-- Filter Section -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5 class="mb-0"><i class="fas fa-filter"></i> Filters</h5>
+        </div>
+        <div class="card-body">
+            <form method="GET" action="{{ url_for('map_view') }}">
+                <div class="row">
+                    <div class="col-md-5">
+                        <label for="mineral" class="form-label">Mineral</label>
+                        <select class="form-select" id="mineral" name="mineral">
+                            <option value="">All Minerals</option>
+                            {% for mineral in all_minerals %}
+                            <option value="{{ mineral }}" {% if mineral == selected_mineral %}selected{% endif %}>
+                                {{ mineral }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-5">
+                        <label for="country" class="form-label">Country</label>
+                        <select class="form-select" id="country" name="country">
+                            <option value="">All Countries</option>
+                            {% for country in all_countries %}
+                            <option value="{{ country }}" {% if country == selected_country %}selected{% endif %}>
+                                {{ country }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="form-label">&nbsp;</label>
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="fas fa-search"></i> Filter
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Map Display -->
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">
+                <i class="fas fa-globe-africa"></i> Deposit Locations
+                <span class="badge bg-primary">{{ deposits|length }} deposits</span>
+            </h5>
+        </div>
+        <div class="card-body p-0">
+            <div style="height: 600px; width: 100%;">
+                {{ map_html|safe }}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Instructions -->
+    <div class="alert alert-info mt-3">
+        <i class="fas fa-info-circle"></i>
+        <strong>How to use:</strong>
+        Click on markers to view deposit details. Use filters above to show specific minerals or countries.
+        You can zoom, pan, and use fullscreen mode.
+    </div>
+</div>
+{% endblock %}
