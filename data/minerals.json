@@ -1,6 +1,6 @@
 [
     {
-        "id": "b39ce76a-62b9-46b6-be95-716f5af4ad00",
+        "id": "230f11f6-906a-44e0-bbfa-0f56a37aeeb7",
         "mineral_name": "Cobalt",
         "country": "Democratic Republic of Congo",
         "uses": "Lithium-ion batteries (EVs, energy storage), superalloys, magnets, catalysts.",
@@ -9,10 +9,10 @@
         "reserves": 750000,
         "price": 32000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.189710"
+        "created_at": "2025-10-03T15:42:58.203912"
     },
     {
-        "id": "4b8f189c-8e01-4e0e-84e7-42b0df62c3e8",
+        "id": "a0c29103-02a1-4ed0-b065-32d6f69f87fa",
         "mineral_name": "Cobalt",
         "country": "Zambia",
         "uses": "Lithium-ion batteries (EVs, energy storage), superalloys, magnets, catalysts.",
@@ -21,10 +21,10 @@
         "reserves": 375000,
         "price": 32000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.189785"
+        "created_at": "2025-10-03T15:42:58.203941"
     },
     {
-        "id": "bf20e222-ebc2-4f62-8f5b-418de1bcce8e",
+        "id": "d17a9f0b-21f0-4d51-ad3d-660b83095e59",
         "mineral_name": "Cobalt",
         "country": "Morocco",
         "uses": "Lithium-ion batteries (EVs, energy storage), superalloys, magnets, catalysts.",
@@ -33,10 +33,10 @@
         "reserves": 150000,
         "price": 32000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.189804"
+        "created_at": "2025-10-03T15:42:58.203951"
     },
     {
-        "id": "98bd4e76-7a72-437e-bc74-412bca0878c9",
+        "id": "c6498982-f12a-43de-a463-a75e0b3af2d2",
         "mineral_name": "Platinum-Group Metals (PGMs)",
         "country": "South Africa",
         "uses": "Catalytic converters, hydrogen fuel cells, catalysts for green hydrogen production.",
@@ -45,10 +45,10 @@
         "reserves": 750000,
         "price": 850000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.189974"
+        "created_at": "2025-10-03T15:42:58.204078"
     },
     {
-        "id": "aa175acd-a146-4e09-a7e7-e4356e3a2e8d",
+        "id": "ce714c86-7a44-416c-bc27-cd8bca2730b6",
         "mineral_name": "Platinum-Group Metals (PGMs)",
         "country": "Palladium",
         "uses": "Catalytic converters, hydrogen fuel cells, catalysts for green hydrogen production.",
@@ -57,10 +57,10 @@
         "reserves": 750000,
         "price": 850000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.189995"
+        "created_at": "2025-10-03T15:42:58.204086"
     },
     {
-        "id": "b7c97052-e863-4b2e-8e85-6818599a4f78",
+        "id": "6d148544-cca7-492c-8728-c3c36e4c548c",
         "mineral_name": "Platinum-Group Metals (PGMs)",
         "country": "Rhodium",
         "uses": "Catalytic converters, hydrogen fuel cells, catalysts for green hydrogen production.",
@@ -69,10 +69,10 @@
         "reserves": 750000,
         "price": 850000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190003"
+        "created_at": "2025-10-03T15:42:58.204092"
     },
     {
-        "id": "5469fc2b-834f-48f2-a111-f2af636ca276",
+        "id": "c49262dd-b5a0-473e-902a-37023797979f",
         "mineral_name": "Platinum-Group Metals (PGMs)",
         "country": "Iridium",
         "uses": "Catalytic converters, hydrogen fuel cells, catalysts for green hydrogen production.",
@@ -81,10 +81,10 @@
         "reserves": 750000,
         "price": 850000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190011"
+        "created_at": "2025-10-03T15:42:58.204112"
     },
     {
-        "id": "5f4bf1e3-97e7-49c2-b637-8f4704b15977",
+        "id": "6443520b-2193-40cc-a55a-4afc72e5b588",
         "mineral_name": "Platinum-Group Metals (PGMs)",
         "country": "Ruthenium)",
         "uses": "Catalytic converters, hydrogen fuel cells, catalysts for green hydrogen production.",
@@ -93,10 +93,10 @@
         "reserves": 750000,
         "price": 850000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190019"
+        "created_at": "2025-10-03T15:42:58.204118"
     },
     {
-        "id": "da07bb88-175a-4d5d-89fa-06b3c421a5b7",
+        "id": "4d51c9c9-2ce5-4501-b2f0-127ae4f71265",
         "mineral_name": "Platinum-Group Metals (PGMs)",
         "country": "Zimbabwe",
         "uses": "Catalytic converters, hydrogen fuel cells, catalysts for green hydrogen production.",
@@ -105,10 +105,10 @@
         "reserves": 750000,
         "price": 850000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190027"
+        "created_at": "2025-10-03T15:42:58.204126"
     },
     {
-        "id": "bfef3a1e-b607-4ed8-b449-ebba76cfb39f",
+        "id": "783bf1f0-7574-4573-8114-be64b2f3e8dd",
         "mineral_name": "Manganese",
         "country": "South Africa",
         "uses": "Steel production, lithium-ion batteries (cathode material), aluminum alloys.",
@@ -117,10 +117,10 @@
         "reserves": 465000000,
         "price": 1800,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190135"
+        "created_at": "2025-10-03T15:42:58.204186"
     },
     {
-        "id": "a0bf778c-abe2-4775-a18c-aaa6f388f2d8",
+        "id": "f8745696-3ecf-4ea5-8caa-87e0e19b442d",
         "mineral_name": "Manganese",
         "country": "Gabon",
         "uses": "Steel production, lithium-ion batteries (cathode material), aluminum alloys.",
@@ -129,10 +129,10 @@
         "reserves": 525000000,
         "price": 1800,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190148"
+        "created_at": "2025-10-03T15:42:58.204192"
     },
     {
-        "id": "23c6e0d6-8bac-4427-a200-423ee78d8d48",
+        "id": "b8468f09-bdfb-424a-b904-1d5e9a0a5deb",
         "mineral_name": "Manganese",
         "country": "Ghana",
         "uses": "Steel production, lithium-ion batteries (cathode material), aluminum alloys.",
@@ -141,10 +141,10 @@
         "reserves": 37500000,
         "price": 1800,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190157"
+        "created_at": "2025-10-03T15:42:58.204198"
     },
     {
-        "id": "902de9ec-385c-4ce0-ba14-d8cf0daf1c77",
+        "id": "491312dc-1f6f-4dcf-ad69-27fa568a6498",
         "mineral_name": "Manganese",
         "country": "C\u00f4te d'Ivoire",
         "uses": "Steel production, lithium-ion batteries (cathode material), aluminum alloys.",
@@ -153,10 +153,10 @@
         "reserves": 750000,
         "price": 1800,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190166"
+        "created_at": "2025-10-03T15:42:58.204203"
     },
     {
-        "id": "05c4d41c-644b-4601-ae9e-11cdc0b0e7d8",
+        "id": "b8915a0f-6783-452f-b39f-712ddb4446d2",
         "mineral_name": "Manganese",
         "country": "Namibia",
         "uses": "Steel production, lithium-ion batteries (cathode material), aluminum alloys.",
@@ -165,10 +165,10 @@
         "reserves": 750000,
         "price": 1800,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190174"
+        "created_at": "2025-10-03T15:42:58.204208"
     },
     {
-        "id": "2e460cb1-3c8a-44d3-a7de-6f6dba46e189",
+        "id": "6fcb7240-a468-4c29-954d-9a1488cbdb4d",
         "mineral_name": "Bauxite (for Aluminum)",
         "country": "Guinea",
         "uses": "Essential for aluminum production (lightweighting for vehicles, solar panels, electricity grid).",
@@ -177,10 +177,10 @@
         "reserves": 750000,
         "price": 50,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190268"
+        "created_at": "2025-10-03T15:42:58.204250"
     },
     {
-        "id": "00192303-5af2-41f0-9d66-22d1dc03fee0",
+        "id": "f823f1d5-ca44-4b4b-aeb8-604c35e6f98b",
         "mineral_name": "Bauxite (for Aluminum)",
         "country": "Ghana",
         "uses": "Essential for aluminum production (lightweighting for vehicles, solar panels, electricity grid).",
@@ -189,10 +189,10 @@
         "reserves": 750000,
         "price": 50,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190279"
+        "created_at": "2025-10-03T15:42:58.204256"
     },
     {
-        "id": "d909de07-7eb1-4644-8441-3549010e10f2",
+        "id": "db81a262-5c5e-4345-98be-807e86c90057",
         "mineral_name": "Bauxite (for Aluminum)",
         "country": "Sierra Leone",
         "uses": "Essential for aluminum production (lightweighting for vehicles, solar panels, electricity grid).",
@@ -201,10 +201,10 @@
         "reserves": 750000,
         "price": 50,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190287"
+        "created_at": "2025-10-03T15:42:58.204261"
     },
     {
-        "id": "6e81edf3-1e72-48fa-9039-38f05e273a2c",
+        "id": "1f95590e-35e9-4629-a62c-7ca9df9a1732",
         "mineral_name": "Bauxite (for Aluminum)",
         "country": "Mozambique",
         "uses": "Essential for aluminum production (lightweighting for vehicles, solar panels, electricity grid).",
@@ -213,10 +213,10 @@
         "reserves": 750000,
         "price": 50,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190295"
+        "created_at": "2025-10-03T15:42:58.204272"
     },
     {
-        "id": "da05f942-4d83-43cb-a775-8747c4cf2ad4",
+        "id": "d8c8f427-c48f-46de-9c5f-ec4fd84f9f21",
         "mineral_name": "Graphite (Natural)",
         "country": "Mozambique",
         "uses": "Anode material for lithium-ion batteries, fuel cells, industrial lubricants.",
@@ -225,10 +225,10 @@
         "reserves": 2250000,
         "price": 1200,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190372"
+        "created_at": "2025-10-03T15:42:58.204311"
     },
     {
-        "id": "2655b150-738a-4dc4-b6a2-005f3039c122",
+        "id": "24e50613-63e6-4678-a5b7-796c3520c040",
         "mineral_name": "Graphite (Natural)",
         "country": "Madagascar",
         "uses": "Anode material for lithium-ion batteries, fuel cells, industrial lubricants.",
@@ -237,10 +237,10 @@
         "reserves": 3750000,
         "price": 1200,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190382"
+        "created_at": "2025-10-03T15:42:58.204317"
     },
     {
-        "id": "519af188-e183-4273-8011-47fd05b7957f",
+        "id": "74a8b511-493d-4c54-bbd6-0ca8906e5352",
         "mineral_name": "Graphite (Natural)",
         "country": "Tanzania",
         "uses": "Anode material for lithium-ion batteries, fuel cells, industrial lubricants.",
@@ -249,10 +249,10 @@
         "reserves": 1125000,
         "price": 1200,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190391"
+        "created_at": "2025-10-03T15:42:58.204325"
     },
     {
-        "id": "9dde7392-7b74-4d93-95e3-e33d9ea47433",
+        "id": "42683cf2-a75d-4bf1-88a8-f9ba50031cc7",
         "mineral_name": "Graphite (Natural)",
         "country": "Namibia",
         "uses": "Anode material for lithium-ion batteries, fuel cells, industrial lubricants.",
@@ -261,10 +261,10 @@
         "reserves": 750000,
         "price": 1200,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190400"
+        "created_at": "2025-10-03T15:42:58.204330"
     },
     {
-        "id": "d1d4b5c0-31f5-4a55-bbde-bd493b2d0c4b",
+        "id": "01218363-e265-4df6-ad97-5f179b49b143",
         "mineral_name": "Lithium",
         "country": "Zimbabwe",
         "uses": "Essential component of lithium-ion batteries (EVs, energy storage).",
@@ -273,10 +273,10 @@
         "reserves": 90000,
         "price": 25000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190480"
+        "created_at": "2025-10-03T15:42:58.204371"
     },
     {
-        "id": "cc5d0497-2130-40a5-a49b-2f279524757d",
+        "id": "ec70d2cd-ef0f-47ea-a220-e307cf661569",
         "mineral_name": "Lithium",
         "country": "DRC",
         "uses": "Essential component of lithium-ion batteries (EVs, energy storage).",
@@ -285,10 +285,10 @@
         "reserves": 60000,
         "price": 25000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190491"
+        "created_at": "2025-10-03T15:42:58.204377"
     },
     {
-        "id": "ad30c737-580f-4613-a123-43ce661dc1d4",
+        "id": "e450d1eb-bd18-45d8-86c2-4defdc02ebd9",
         "mineral_name": "Lithium",
         "country": "Mali",
         "uses": "Essential component of lithium-ion batteries (EVs, energy storage).",
@@ -297,10 +297,10 @@
         "reserves": 22500,
         "price": 25000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190500"
+        "created_at": "2025-10-03T15:42:58.204383"
     },
     {
-        "id": "e66e34e1-d401-46d5-8f1f-692e78395075",
+        "id": "7a94f345-1543-400a-b35f-a3e96354b261",
         "mineral_name": "Lithium",
         "country": "Ghana",
         "uses": "Essential component of lithium-ion batteries (EVs, energy storage).",
@@ -309,10 +309,10 @@
         "reserves": 750000,
         "price": 25000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190510"
+        "created_at": "2025-10-03T15:42:58.204388"
     },
     {
-        "id": "6ca637b6-0231-4009-b0e8-ab8349670b46",
+        "id": "57a748f9-f44f-48f3-aabe-693ab18e4690",
         "mineral_name": "Lithium",
         "country": "Namibia",
         "uses": "Essential component of lithium-ion batteries (EVs, energy storage).",
@@ -321,10 +321,10 @@
         "reserves": 750000,
         "price": 25000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190521"
+        "created_at": "2025-10-03T15:42:58.204393"
     },
     {
-        "id": "fb60b080-11c3-488c-9e09-c41d53788f1c",
+        "id": "44b77191-cf62-4111-bf48-d30edf2b2641",
         "mineral_name": "Lithium",
         "country": "Rwanda",
         "uses": "Essential component of lithium-ion batteries (EVs, energy storage).",
@@ -333,10 +333,10 @@
         "reserves": 750000,
         "price": 25000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190531"
+        "created_at": "2025-10-03T15:42:58.204398"
     },
     {
-        "id": "db3b9ac4-b6f1-4f18-b55f-54701011a023",
+        "id": "ac2680c0-0a96-4b45-93a6-733a98691a4c",
         "mineral_name": "Copper",
         "country": "Democratic Republic of Congo",
         "uses": "Wiring, electrical grids, wind turbines, solar photovoltaics, electric vehicle components.",
@@ -345,10 +345,10 @@
         "reserves": 750000,
         "price": 8500,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190608"
+        "created_at": "2025-10-03T15:42:58.204437"
     },
     {
-        "id": "6f8c9ff7-2260-448a-8384-702c498ccdf2",
+        "id": "c6f5992e-fdc5-4165-bd1e-79114cb89557",
         "mineral_name": "Copper",
         "country": "Zambia",
         "uses": "Wiring, electrical grids, wind turbines, solar photovoltaics, electric vehicle components.",
@@ -357,10 +357,10 @@
         "reserves": 60000000,
         "price": 8500,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190618"
+        "created_at": "2025-10-03T15:42:58.204444"
     },
     {
-        "id": "68670f23-098d-4a30-b5a5-d6da92d0482a",
+        "id": "4e32714d-a809-4942-a7e9-87eb5dff8433",
         "mineral_name": "Copper",
         "country": "South Africa",
         "uses": "Wiring, electrical grids, wind turbines, solar photovoltaics, electric vehicle components.",
@@ -369,10 +369,10 @@
         "reserves": 3750000,
         "price": 8500,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190627"
+        "created_at": "2025-10-03T15:42:58.204449"
     },
     {
-        "id": "a6ca6b46-303f-49b0-ae93-15f620a12cf8",
+        "id": "2d81e143-554e-420f-b279-73f1c8af9e00",
         "mineral_name": "Copper",
         "country": "Namibia",
         "uses": "Wiring, electrical grids, wind turbines, solar photovoltaics, electric vehicle components.",
@@ -381,10 +381,10 @@
         "reserves": 750000,
         "price": 8500,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190635"
+        "created_at": "2025-10-03T15:42:58.204455"
     },
     {
-        "id": "12cc0d83-3f93-44ba-aff1-4e9256ea7761",
+        "id": "fd85e171-e6c4-48a5-98e8-6ea3b883a420",
         "mineral_name": "Nickel",
         "country": "South Africa",
         "uses": "Lithium-ion batteries (cathode material), stainless steel, superalloys.",
@@ -393,10 +393,10 @@
         "reserves": 750000,
         "price": 18000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190700"
+        "created_at": "2025-10-03T15:42:58.204492"
     },
     {
-        "id": "459daad8-9f95-4409-90bc-58c24121aba8",
+        "id": "5dffa6c1-69e3-4e6b-94e6-d0ecfafdcc4c",
         "mineral_name": "Nickel",
         "country": "Madagascar",
         "uses": "Lithium-ion batteries (cathode material), stainless steel, superalloys.",
@@ -405,10 +405,10 @@
         "reserves": 750000,
         "price": 18000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190708"
+        "created_at": "2025-10-03T15:42:58.204498"
     },
     {
-        "id": "75363560-a834-48a9-a047-27eb605667fc",
+        "id": "c9a7cce0-821a-46e1-9eda-e6f277fdc5df",
         "mineral_name": "Nickel",
         "country": "Zambia",
         "uses": "Lithium-ion batteries (cathode material), stainless steel, superalloys.",
@@ -417,10 +417,10 @@
         "reserves": 750000,
         "price": 18000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190715"
+        "created_at": "2025-10-03T15:42:58.204503"
     },
     {
-        "id": "60245a03-4918-415b-aa94-077fcd332090",
+        "id": "17594329-4bd6-40ac-86d3-47840ba12881",
         "mineral_name": "Nickel",
         "country": "Botswana",
         "uses": "Lithium-ion batteries (cathode material), stainless steel, superalloys.",
@@ -429,10 +429,10 @@
         "reserves": 750000,
         "price": 18000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190722"
+        "created_at": "2025-10-03T15:42:58.204507"
     },
     {
-        "id": "8a7f6bb1-7e0a-4528-859b-8b7604fb0649",
+        "id": "510be8b7-be3e-4087-ba94-e82dfb35ecd0",
         "mineral_name": "Nickel",
         "country": "Tanzania",
         "uses": "Lithium-ion batteries (cathode material), stainless steel, superalloys.",
@@ -441,10 +441,10 @@
         "reserves": 750000,
         "price": 18000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190729"
+        "created_at": "2025-10-03T15:42:58.204512"
     },
     {
-        "id": "faa58dde-ecdf-4d56-abdd-076151bd014b",
+        "id": "2b997c81-0449-415c-a094-f6479dd20211",
         "mineral_name": "Chromium",
         "country": "South Africa",
         "uses": "Stainless steel production (ferrochrome), essential for high-temperature and corrosion-resistant alloys.",
@@ -453,10 +453,10 @@
         "reserves": 1350000000,
         "price": 450,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190786"
+        "created_at": "2025-10-03T15:42:58.204551"
     },
     {
-        "id": "67a1d9ed-cd01-4821-a3d8-190c038ee839",
+        "id": "e0a6b262-c6d1-4dd3-bf9f-471321f23f6b",
         "mineral_name": "Chromium",
         "country": "Zimbabwe",
         "uses": "Stainless steel production (ferrochrome), essential for high-temperature and corrosion-resistant alloys.",
@@ -465,10 +465,10 @@
         "reserves": 67500000,
         "price": 450,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190796"
+        "created_at": "2025-10-03T15:42:58.204558"
     },
     {
-        "id": "ab84885a-2f05-45d7-9bf0-8148a6ae2929",
+        "id": "cf243062-5d17-4a36-a980-d2ce7ef341f0",
         "mineral_name": "Uranium",
         "country": "Namibia",
         "uses": "Nuclear power generation.",
@@ -477,10 +477,10 @@
         "reserves": 750000,
         "price": 140000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190854"
+        "created_at": "2025-10-03T15:42:58.204596"
     },
     {
-        "id": "ebdaf808-3997-409a-b90f-4ebca36250fc",
+        "id": "1c776da2-fc7e-423d-a1ce-2e366e424587",
         "mineral_name": "Uranium",
         "country": "Niger",
         "uses": "Nuclear power generation.",
@@ -489,10 +489,10 @@
         "reserves": 750000,
         "price": 140000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190863"
+        "created_at": "2025-10-03T15:42:58.204602"
     },
     {
-        "id": "c658d041-b296-4e4f-a162-9757190b70e2",
+        "id": "3bffbfd8-6bf8-4a2c-bfd8-bcace2c3cb52",
         "mineral_name": "Uranium",
         "country": "South Africa",
         "uses": "Nuclear power generation.",
@@ -501,10 +501,10 @@
         "reserves": 750000,
         "price": 140000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190871"
+        "created_at": "2025-10-03T15:42:58.204607"
     },
     {
-        "id": "8deb5565-c54d-4aba-a7e2-849b8484960e",
+        "id": "0d868d6c-2d78-4c07-8e2c-abd7baa68ef7",
         "mineral_name": "Rare Earth Elements (REEs)",
         "country": "South Africa",
         "uses": "Permanent magnets (wind turbines, EV motors), high-tech electronics, defense applications.",
@@ -513,10 +513,10 @@
         "reserves": 750000,
         "price": 75000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190931"
+        "created_at": "2025-10-03T15:42:58.204644"
     },
     {
-        "id": "17a78c87-121b-48a0-b1f8-3a83bb722b09",
+        "id": "6f11dda1-780f-4b5f-85db-2aaa9423ac22",
         "mineral_name": "Rare Earth Elements (REEs)",
         "country": "Tanzania",
         "uses": "Permanent magnets (wind turbines, EV motors), high-tech electronics, defense applications.",
@@ -525,10 +525,10 @@
         "reserves": 750000,
         "price": 75000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190939"
+        "created_at": "2025-10-03T15:42:58.204650"
     },
     {
-        "id": "cf3ed98f-9882-48dc-b356-55ed6a8182e0",
+        "id": "17476fcc-7414-4ce4-a48c-912c4b1f8e1c",
         "mineral_name": "Rare Earth Elements (REEs)",
         "country": "Burundi",
         "uses": "Permanent magnets (wind turbines, EV motors), high-tech electronics, defense applications.",
@@ -537,10 +537,10 @@
         "reserves": 750000,
         "price": 75000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190946"
+        "created_at": "2025-10-03T15:42:58.204654"
     },
     {
-        "id": "9b2ff9f9-e814-43a3-9bd4-7c0fa1744df9",
+        "id": "3121f9e3-ee96-40d4-b48b-bf318359a672",
         "mineral_name": "Rare Earth Elements (REEs)",
         "country": "Namibia",
         "uses": "Permanent magnets (wind turbines, EV motors), high-tech electronics, defense applications.",
@@ -549,10 +549,10 @@
         "reserves": 750000,
         "price": 75000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190953"
+        "created_at": "2025-10-03T15:42:58.204659"
     },
     {
-        "id": "604eaeba-5a2a-4737-982c-fafdbb444893",
+        "id": "8b5b4bd8-003b-407d-b52e-fe114c37fbbe",
         "mineral_name": "Rare Earth Elements (REEs)",
         "country": "Somalia",
         "uses": "Permanent magnets (wind turbines, EV motors), high-tech electronics, defense applications.",
@@ -561,6 +561,6 @@
         "reserves": 750000,
         "price": 75000,
         "unit": "tonnes",
-        "created_at": "2025-10-02T00:02:52.190960"
+        "created_at": "2025-10-03T15:42:58.204664"
     }
 ]
